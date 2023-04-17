@@ -1,0 +1,183 @@
+html,body{
+    height: 100vh;
+    width: 100%;
+
+    background-image:url(../images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Raleway';
+
+    gap: 3%;
+}
+
+.card1{
+    height: 200px;
+    width: 320px;
+
+    border-radius: 10px;
+    border-top-right-radius: 90px;
+
+    background-color: hsl(228, 56%, 26%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.card1_title{
+    margin: 11% 11% 8% ;      
+}
+
+.card1_logo{
+    height: 40px;
+}
+
+.card1_icons{
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 8%;    
+}
+
+img{
+    height: 20px;
+}
+
+.card1_icons-document{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+ 
+    height: 45px;
+    width: 45px;
+    margin: 10px;
+
+    border-radius: 10px;
+
+    background: hsl(229, 57%, 11%);
+}
+
+.card2{
+    height: 150px;
+    width: 85%;
+    min-width: 320px;
+    max-width: 600px;
+
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 10px;
+
+    background-color: hsl(228, 56%, 26%);
+    
+    color: hsl(243, 100%, 93%);
+
+    z-index: 1;
+
+}
+
+.card2_dats {
+    font-size: 14px;
+}
+
+
+.card2_progress-bar{
+    width: 85%;
+    height: 20px;
+
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+    background-color: hsl(229, 57%, 11%);
+}
+
+.card2_progress-bar p{
+    margin-top: 25px;
+    font-size: 12px;
+}
+
+.card2_progress-color{
+    height: 14px;
+    width: 75%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+ 
+    border-radius: 8px;
+    border: 1px solid  black ;
+
+    align-self: center;
+
+    margin-left: 2px;
+    
+    position: absolute;
+
+    background:linear-gradient(to right, hsl(6, 100%, 80%),hsl(335, 100%, 65%))
+}
+
+.card2_progress-color .circle{
+    height: 10px;
+    width: 10px;
+
+    margin-right: 3px;
+
+    align-self: center;
+
+    border-radius: 5px;
+
+    background: hsl(243, 100%, 93%);
+}
+
+.card3{
+    height: 70px;
+    width: 170px;
+
+    margin-top: -50px;
+    
+    border-radius: 8px;
+    border: 1px solid black;
+
+    position: relative;
+   
+    background: white;
+
+    z-index: 2;
+}
+
+.card3_dats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -85px;
+    gap: 10px;
+
+    color: black;
+    height: 50px;    
+
+    z-index: 2;
+}
+
+.card3_dats-peso{
+    font-size: 40px;
+}
+
+.card3_dats-info{
+    font-size:12px ;
+    color: hsl(229, 7%, 55%);
+}
